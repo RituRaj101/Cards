@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 450px;
+            width: 350px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            margin-top: 100px;
+            
+        }
+
+        #image{
+            display: flex;
+            justify-content: center;
+        }
+
+        #image img{
+            height: 150px;
+            width: 350px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            margin-top: -158px;
+        }
+        h2,p{
+            text-align: center;
+        }
+        .amount{
+            height: 10%;
+            width: 80%;
+            background-color: rgb(155, 188, 250);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+        .amount img{
+            border-radius: 10px;
+        }
+        #para{
+            display: flex;
+            flex-direction: column;
+            height: 0.1rem;
+            width: 5rem;
+        }
+        #pay{
+            height: 10%;
+            width: 80%;
+            background-color: blue;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            padding-top: 14px;
+            box-sizing: border-box;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #order{
+            font-weight: bold;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div id="image">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/9/XY/PX/ZU/43263813/online-payment-collection-service-500x500.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h2>Order Summary</h2>
+
+                <p style="margin-top: 2px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione architecto iure rerum tempore, perferendis quod voluptatum nemo eveniet ea.</p>
+            </div>
+            <div class="amount">
+                <img src="https://liteapks.com/wp-content/uploads/2022/09/offline-music-player-play-mp3.jpg" alt="">
+                <div id="para">
+                    <p style="padding-top: 4px;">Amount</p>
+                    <p>$ 99.9 year</p>
+                </div>
+                <a href="" style="margin-top: 13px;
+                margin-left: 70px; margin-right: 6px;">Change</a>
+                
+            </div>
+            <div id="pay">Proceed to Payment</div>
+            <div id="order">Cancel Order</div>
+
+        </div>
+
+    </div>
+</body>
+</html>
